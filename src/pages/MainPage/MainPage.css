@@ -1,0 +1,12 @@
+.showBlock{
+    margin-top: 10px;
+}
+
+#list_items {
+    border: 2px solid rgba(36,140,209,0.62);
+    border-radius: 5px 5px 5px 5px;
+}
+
+.bet_notification {
+    background-color: greenyellow;
+}

@@ -1,0 +1,16 @@
+.button_bet {
+    background-color: #1976D2;
+    color: #FFFFFF;
+}
+
+.button_bet:disabled{
+
+
+
+}
+
+label{
+    margin-right: 25px;
+
+
+}
