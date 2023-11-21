@@ -1,7 +1,7 @@
 #root {
   max-width: 1920px;
   margin: 0 auto;
-
+  padding: 10px;
 }
 
 .logo {
@@ -38,4 +38,47 @@
 
 .read-the-docs {
   color: #888;
+}
+
+@media all and  (max-width: 1200px){
+
+  #root {
+    width:1140px;
+    min-height: 100vh;
+
+  }
+
+
+
+}
+
+@media all and  (min-width: 992px) and (max-width: 1199px ){
+
+  #root {
+    width:960px;
+    min-height: 100vh;
+
+  }
+}
+
+@media all and (min-width: 768px) and (max-width: 990px ){
+
+  #root {
+    width:720px;
+    min-height: 100vh;
+
+  }
+
+}
+
+
+@media all and  (min-width: 576px) and (max-width: 768px ) {
+
+  #root {
+    width: 540px;
+    min-height: 100vh;
+    padding: 10px;
+    text-align: center;
+    overflow-x: hidden;
+  }
 }
